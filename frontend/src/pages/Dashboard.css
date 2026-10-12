@@ -1,0 +1,114 @@
+.dashboard-container {
+  display: grid;
+  grid-template-columns: 320px 1fr;
+  gap: 25px;
+  max-width: 1300px;
+  margin: 25px auto;
+  padding: 0 20px;
+}
+
+.left-column {
+  background: white;
+  border: 1px solid #ddd;
+  padding: 20px;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.card {
+  background: #f9f9f9;
+  border: 1px solid #eee;
+  padding: 15px;
+  text-align: center;
+}
+
+.card i {
+  font-size: 32px;
+  color: #3c5d86;
+}
+
+.card .value {
+  font-size: 32px;
+  font-weight: bold;
+  margin: 10px 0 5px;
+}
+
+.card .label {
+  font-size: 13px;
+  color: #666;
+}
+
+.extra-info {
+  margin-top: 30px;
+  border-top: 1px solid #eee;
+  padding-top: 20px;
+}
+
+.progress-bar {
+  background: #eee;
+  height: 10px;
+  margin: 10px 0;
+}
+
+.progress {
+  background: #3c5d86;
+  height: 100%;
+}
+
+.right-column {
+  background: white;
+  border: 1px solid #ddd;
+  padding: 20px;
+}
+
+.alerts-table h3 {
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border-bottom: 1px solid #eee;
+  padding: 10px;
+  text-align: left;
+  font-size: 13px;
+}
+
+th {
+  background: #f5f5f5;
+}
+
+.severity {
+  padding: 3px 8px;
+  border-radius: 3px;
+  font-size: 11px;
+}
+
+.severity.critical {
+  background: #ffe6e5;
+  color: #b91c1c;
+}
+.chart-container {
+  margin-bottom: 30px;
+}
+.chart-container h3 {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+.severity.warning {
+  background: #fff3e0;
+  color: #b45f06;
+}
+
+.loading {
+  text-align: center;
+  padding: 50px;
+}

@@ -1,0 +1,63 @@
+.top-header {
+  background: white;
+  padding: 15px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #ddd;
+}
+
+.gov {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.gov img {
+  height: 50px;
+}
+
+.gov-text h2 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.gov-text p {
+  margin: 0;
+  font-size: 13px;
+  color: #666;
+}
+
+.header-user {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.user-name {
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+}
+
+.logout-btn {
+  background: #dc2626;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  transition: background 0.2s;
+}
+
+.logout-btn:hover {
+  background: #b91c1c;
+}
+
+.logout-btn i {
+  font-size: 14px;
+}
